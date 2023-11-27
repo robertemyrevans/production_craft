@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: navigation
+name: Navigation
+propagationMethod: all
+siteSettings:
+  d9a8c388-aac9-49e4-a1f4-504f99eed1a7: # motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: navigation/_entry
+    uriFormat: 'navigation/{slug}'
+structure:
+  maxLevels: null
+  uid: e570a828-a5a8-46ec-b3ad-1eb7faab41be
+type: structure

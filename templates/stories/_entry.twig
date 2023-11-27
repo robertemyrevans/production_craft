@@ -1,0 +1,28 @@
+{% extends 'index' %}
+
+{% set body_classes = "inner-page" %}
+{% set pageTitle = entry.title %}
+{% set pageDescription = entry.shortDescription %}
+
+{% block content %}
+
+	{% cache using key "stories-detail-page" %}
+
+	<article class="section">
+		<div class="content-column content-column--narrow">
+
+			<h1 class="centered">{{ entry.title }}</h1>
+
+			{% include "components/slider" with {
+                photos: entry.photos.all()
+
+            } %}
+
+
+			{{ entry.richText }}
+
+		</div>
+	</article>
+
+	{% endcache %}
+{% endblock %}

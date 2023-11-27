@@ -1,0 +1,45 @@
+{% extends "index" %}
+{% set pageTitle = entry.title %}
+{% set pageDescription = entry.title %}
+{% set body_classes = "inner-page" %}
+
+{% block content %}
+
+	{% cache using key "stories-listing-page" %}
+	{% set stories = craft.entries.section("stories").all() %}
+
+	<section class="section">
+		<div class="content-column">
+
+			<h1 class="centered">{{ entry.title}}</h1>
+
+
+			<div class="two-columns">
+				{% for story in stories %}
+
+					{% set photo = story.photos.one() %}
+
+					<div class="two-columns__item">
+
+						<div class="two-columns__content">
+							<h2>{{ story.title }}</h2>
+							<p>{{ story.shortDescription }}</p>
+							<p>
+								<a href="{{ story.url }}" class="cta-link">Discover the full story</a>
+							</p>
+						</div>
+
+						<div class="two-columns__image">
+							<img src="{{ photo.url }}" alt="{{ photo.title }}">
+						</div>
+
+					</div>
+
+					{% endfor%}
+				</div>
+
+
+			</div>
+		</section>
+		{%  endcache %}
+	{% endblock %}

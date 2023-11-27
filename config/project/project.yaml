@@ -1,0 +1,69 @@
+dateModified: 1701093410
+email:
+  fromEmail: evansrobbie@hotmail.com
+  fromName: motoadventure
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
+meta:
+  __names__:
+    00d54e49-dda0-48f1-a3b5-7c20a87dedda: 'Nav Links' # Nav Links
+    1c601a79-7550-4ec6-9e26-03b715c1069e: Home # Home
+    1ecd68f4-7c7e-4555-aacb-a8429461f5c1: 'Featured Story' # Featured Story
+    3ae898c0-1eec-4d0b-84e0-d7d5f8b3e9d0: Link # Link
+    05adbbf1-3cff-4a97-b9de-405dce9d5c54: 'Link Destination' # Link Destination
+    5ed8f180-776f-4be9-99d6-279ddb7856aa: Rider # Rider
+    6e8d44aa-d021-4939-a86b-58291439ff7a: uploads # uploads
+    7a8855d8-c4c6-4ed4-9476-a0ceabc04b02: 'Full Name' # Full Name
+    8f0f624d-a97f-46fa-8268-eb87bb89b9eb: Header # Header
+    8fb748fb-00b3-4ed3-b5be-3cef111b70dc: Riders # Riders
+    8fbc930b-da54-424d-9724-9eddadcaf01f: 'Stories Listing' # Stories Listing
+    9dc1f9c5-0951-45be-a658-53b1f6cd1e82: 'Hero Image' # Hero Image
+    13ef66f1-20d3-4ec5-bbdf-23073be5c55c: 'Stories Listing' # Stories Listing
+    57d42e56-8f9a-4d9b-a2c5-7e59b1a016b3: Navigation # Navigation
+    070ce001-103f-4a1a-acf8-49f8dcc8918e: Avatar # Avatar
+    75e80911-d7fa-4bee-ae1d-4b5a86b5103f: 'Link Text' # Link Text
+    89e4dc40-3ff1-458c-a900-1f52f2d66690: 'Home Page' # Home Page
+    0112a55c-67f1-4daf-8cdb-eb3ebfa5e5c8: Footer # Footer
+    0276dbaf-0024-4767-8ac2-1048d837e337: Photo # Photo
+    690d6b0e-da55-47d2-8ab5-366bf79ee98e: Default # Default
+    942d8a6d-2cb0-4752-9e96-6e16473ac467: Home # Home
+    8199c0da-3d08-4447-a378-89d0620a6aed: 'Hero Title' # Hero Title
+    8541799b-3d30-4631-89d1-4d1f83235696: 'Short Description' # Short Description
+    42035116-e417-46d2-8fb3-b86e7ef41a7f: motoadventure # motoadventure
+    a0380b98-6a00-44e7-a38c-c74f29124cd2: Description # Description
+    ad920700-42d5-4631-afcd-5f65ebaec175: Default # Default
+    b02046e7-4cde-43ed-a1a7-77b24704b7da: Photos # Photos
+    b872d4d1-a4a8-43e1-aa40-12f3f9cccc65: 'Rich Text' # Rich Text
+    bc7583d7-fe18-4f5b-a53c-f81a923a75fc: Hero # Hero
+    c007a099-3d85-469f-8290-813b25dd36eb: 'General Pages' # General Pages
+    c5935c92-523f-451e-b22d-e82291f885a1: Default # Default
+    d9a8c388-aac9-49e4-a1f4-504f99eed1a7: motoventure # motoventure
+    de1edcec-2e04-4c05-be86-6318054fd39e: Slider # Slider
+    e0550ef0-f8c7-4524-bcaa-8922ce15feb6: Common # Common
+    e6a04079-a043-4656-8a82-4552b9829e65: 'Riders Intro Content' # Riders Intro Content
+    f8c8d20c-ff28-4f6b-8035-31b8f278e31a: Stories # Stories
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: motoadventure
+  retryDuration: null
+  schemaVersion: 4.5.3.0
+  timeZone: Europe/London
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

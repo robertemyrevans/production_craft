@@ -1,0 +1,27 @@
+columnSuffix: nslqmdkn
+contentColumnType: text
+fieldGroup: 89e4dc40-3ff1-458c-a900-1f52f2d66690 # Home Page
+handle: ridersIntroContent
+instructions: null
+name: 'Riders Intro Content'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

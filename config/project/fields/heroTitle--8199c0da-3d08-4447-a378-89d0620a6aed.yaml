@@ -1,0 +1,19 @@
+columnSuffix: gfhppfug
+contentColumnType: text
+fieldGroup: 89e4dc40-3ff1-458c-a900-1f52f2d66690 # Home Page
+handle: heroTitle
+instructions: null
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

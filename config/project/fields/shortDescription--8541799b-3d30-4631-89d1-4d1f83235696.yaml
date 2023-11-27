@@ -1,0 +1,19 @@
+columnSuffix: ossxfovj
+contentColumnType: text
+fieldGroup: e0550ef0-f8c7-4524-bcaa-8922ce15feb6 # Common
+handle: shortDescription
+instructions: null
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
