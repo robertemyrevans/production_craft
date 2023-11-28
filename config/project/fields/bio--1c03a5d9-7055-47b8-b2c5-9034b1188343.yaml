@@ -1,0 +1,19 @@
+columnSuffix: menbqkqn
+contentColumnType: text
+fieldGroup: 0bee3e69-deb2-414c-9bfa-4803581b96ee # About
+handle: bio
+instructions: null
+name: Bio
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 8
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

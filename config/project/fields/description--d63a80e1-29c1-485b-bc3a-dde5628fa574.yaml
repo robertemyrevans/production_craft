@@ -1,0 +1,19 @@
+columnSuffix: sehtkgpd
+contentColumnType: text
+fieldGroup: 4c1b1cb8-b17f-4c87-807e-9fa7703601ca # Global
+handle: description
+instructions: null
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

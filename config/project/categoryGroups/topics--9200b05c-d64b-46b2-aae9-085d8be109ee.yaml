@@ -1,0 +1,98 @@
+defaultPlacement: end
+fieldLayouts:
+  560b63fb-9166-4a1b-a29f-16265b7be819:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 44524f12-48ec-4fbf-88c3-184343b1a34f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e2f73270-c6ae-4908-99eb-7907a9aaf45f # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a0d65a4-6c3c-4759-aa4a-0a9acb269ee4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1f79df20-2667-4681-9d35-8f728b98c499 # Feature Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f4e7ef33-08f7-4a8a-bd0b-b0ee1e025401
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2d43e094-d91b-4665-af9e-d4a47cdad094 # Post Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 267574e7-18fe-4e1a-bc85-5a694369d809
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c63172cf-eacc-4413-b270-8840b06f628a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c23bd129-e236-45ac-bddf-92a7899ca7ed
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 703466ea-fc2e-42b7-bb06-1bb48034adb6
+        userCondition: null
+handle: topics
+name: Topics
+siteSettings:
+  50831325-14d5-4a9d-ad1a-0f7fb68a3124: # SwimThinks
+    hasUrls: true
+    template: blog/_topic
+    uriFormat: 'blog/topic/{slug}'
+  b3b6ce42-3245-49ca-9042-c1e7cc286e6d: # obselete
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: aee14d8a-5f61-497f-b143-2704ea6a33bc

@@ -1,0 +1,32 @@
+fieldLayouts:
+  39500288-e3b8-4784-8014-b5cc9f10ed9d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9996b2e7-4fd9-4837-a373-8e262977176a # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 93d1c20b-722f-4f0d-8d1f-5e7ad5608fee
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 23de8195-7636-4e0b-a49b-7cf17599fb87
+        userCondition: null
+handle: home
+hasTitleField: true
+name: Home
+section: e2364032-712b-4761-b80c-e8fe17bc987d # Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

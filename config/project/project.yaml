@@ -1,0 +1,65 @@
+dateModified: 1701130996
+email:
+  fromEmail: evansrobbie@hotmail.com
+  fromName: Investigations
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
+meta:
+  __names__:
+    0a6a76c2-38f2-42ca-bbb7-3505a426adce: Blog # Blog
+    0bee3e69-deb2-414c-9bfa-4803581b96ee: About # About
+    1c03a5d9-7055-47b8-b2c5-9034b1188343: Bio # Bio
+    1ee945c1-3299-4fab-aa3a-dfb349a60eb8: About # About
+    1f79df20-2667-4681-9d35-8f728b98c499: 'Feature Image' # Feature Image
+    2d43e094-d91b-4665-af9e-d4a47cdad094: 'Post Content' # Post Content
+    4b4d84f4-9c6e-406e-a2cf-70b26cdee485: 'Site Info' # Site Info
+    4c1b1cb8-b17f-4c87-807e-9fa7703601ca: Global # Global
+    5e1a1181-140d-4a6e-b0c4-81c9d6a81036: Common # Common
+    8c4ab6a1-7f53-413e-8932-bea1721a1e92: SwimThinks # SwimThinks
+    57d22ac0-3097-403b-86f6-f0af2d7e07f5: Home # Home
+    84da7e50-9e72-4707-a5ab-f1579e6a52c2: About # About
+    525f9c80-86d9-489f-b59e-2c4bfb3feeea: Text # Text
+    9200b05c-d64b-46b2-aae9-085d8be109ee: Topics # Topics
+    9996b2e7-4fd9-4837-a373-8e262977176a: 'Rich Text' # Rich Text
+    732771f0-afbc-40e3-b996-c1788c305c7a: Post # Post
+    1309132f-5aed-41d9-96a5-536650a666ca: 'Profile Photo' # Profile Photo
+    50831325-14d5-4a9d-ad1a-0f7fb68a3124: SwimThinks # SwimThinks
+    a01cff8b-9137-4669-bfff-9e696a9643a4: Text # Text
+    a25fd353-b2aa-4bee-a765-aea30e50b99e: Blog # Blog
+    aa0f4c0f-ba65-4ddf-b85e-b76f7986d994: Images # Images
+    b3b6ce42-3245-49ca-9042-c1e7cc286e6d: obselete # obselete
+    c0e19a0b-c6c0-4cb7-9156-2e4433d9a3e7: Image # Image
+    d63a80e1-29c1-485b-bc3a-dde5628fa574: Description # Description
+    df12154b-354a-4cc6-88ee-0ebb8fdaab32: Image # Image
+    e2f73270-c6ae-4908-99eb-7907a9aaf45f: Summary # Summary
+    e2364032-712b-4761-b80c-e8fe17bc987d: Home # Home
+    eb098f85-e304-4e77-96c0-92c3c6840e9c: Topics # Topics
+plugins:
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: SwimThinks
+  retryDuration: null
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

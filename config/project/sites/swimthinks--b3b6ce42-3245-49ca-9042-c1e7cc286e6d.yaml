@@ -1,0 +1,9 @@
+baseUrl: '@web/'
+enabled: '1'
+handle: swimthinks
+hasUrls: true
+language: en-US
+name: obselete
+primary: false
+siteGroup: 8c4ab6a1-7f53-413e-8932-bea1721a1e92 # SwimThinks
+sortOrder: 2
