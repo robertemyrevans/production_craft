@@ -1,0 +1,8 @@
+{% set previewCss = view.getAssetManager().getPublishedUrl('@spicyweb/embeddedassets/assets/preview/dist/styles/preview.css', true) %}
+<link rel="stylesheet" href="{{ previewCss }}">
+{% set previewJs = view.getAssetManager().getPublishedUrl('@spicyweb/embeddedassets/assets/preview/dist/scripts/preview.js', true) %}
+<script src="{{ previewJs }}"></script>
+
+<div class="volume-preview">
+    {% include 'embeddedassets/_components/embedded_asset_preview' with {embeddedAsset: embeddedAsset} only %}
+</div>
